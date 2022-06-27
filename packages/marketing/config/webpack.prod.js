@@ -7,6 +7,7 @@ const productionConfig = {
     mode: 'production',
     output: {
         filename: '[name].[chunkhash].js',
+        publicPath: '/marketing/latest/'
     },
     plugins: [
         new ModuleFederationPlugin({
